@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "backend api",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node --experimental-specifier-resolution=node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.0.0",
+    "@graphql-tools/schema": "^9.0.4",
+    "@types/mongoose": "^5.11.97",
+    "apollo-datasource-mongodb": "^0.5.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.11.2",
+    "mongoose": "^6.7.5",
+    "ws": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4"
+  }
+}

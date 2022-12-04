@@ -1,0 +1,1 @@
+{"version":3,"file":"mongo-schema.js","sourceRoot":"","sources":["../../src/schema/mongo-schema.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAIlC,MAAM,CAAC,MAAM,aAAa,GAAG,IAAI,MAAM,CAAW;IAChD,EAAE,EAAE,MAAM;CACX,CAAC,CAAC"}
