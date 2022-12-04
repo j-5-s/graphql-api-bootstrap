@@ -18,5 +18,8 @@ export const resolvers = {
   // Mutation: {
    
   // },
+  Example: {
+    id: idScalar,
+  },
   Date: dateScalar,
 };

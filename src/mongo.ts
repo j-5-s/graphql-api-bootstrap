@@ -5,7 +5,7 @@ let conn: mongoose.Connection | null = null;
 // const uri: string = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_CLUSTER}.mongodb.net/${process.env.MONGO_DATABASE}?retryWrites=true&w=majority`;
 // const uri = `mongodb://localhost:27017/${process.env.DB_NAME}`;
 const uri = process.env.MONGODB_URI;
-console.log(uri);
+
 export const getConnection = (): Promise<mongoose.Connection> => new Promise((resolve, reject) => {
   if (conn == null) {
     try {
