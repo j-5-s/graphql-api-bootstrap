@@ -1,1 +1,0 @@
-{"version":3,"file":"id-scalar.js","sourceRoot":"","sources":["../../src/schema/id-scalar.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,QAAQ,GAAG,CAAC,IAAS,EAAE,EAAE;IACpC,IAAI,IAAI,CAAC,EAAE;QAAE,OAAO,IAAI,CAAC,EAAE,CAAC;IAC5B,IAAI,IAAI,CAAC,GAAG,EAAE;QACZ,OAAO,IAAI,CAAC,GAAG,CAAC,QAAQ,EAAE,CAAC;KAC5B;AACH,CAAC,CAAA"}
